@@ -9,7 +9,7 @@
 
 #define BUTTON_PIN PB11
 
-unsigned flag=0;
+volatile unsigned flag=0;
 
 void button_isr() {
 if(flag)
